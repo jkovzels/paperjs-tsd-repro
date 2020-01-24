@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"outDir": "out",
+		"sourceMap": true,
+		"incremental": true,
+		"moduleResolution": "node",
+	},
+	"include": [
+		"**/*"
+	]
+}

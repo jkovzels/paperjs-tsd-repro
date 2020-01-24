@@ -1,0 +1,17 @@
+{
+	"name": "paperjs-ts-definitions",
+	"version": "1.0.0",
+	"description": "",
+	"main": "repro.ts",
+	"dependencies": {
+		"paper": "0.12.3"
+	},
+	"devDependencies": {
+		"@types/node": "^13.5.0"
+	},
+	"scripts": {
+		"build": "tsc -p .",
+		"start": "npm run build -- -w"
+	},
+	"license": "MIT"
+}
